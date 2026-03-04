@@ -2,7 +2,6 @@ import React from 'react'
 import Cards from './Cards';
 
 import Slider from "react-slick";
-// import list from '../../public/list.json'   ---> no use of it as the data is stored in the backend
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from "axios"
