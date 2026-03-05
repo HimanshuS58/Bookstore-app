@@ -14,7 +14,7 @@ const Course = () => {
 
         const getBook = async () => {
             try {
-                const res = await axios.get('https://bookstore-app-backend-tp91.onrender.com/book');
+                const res = await axios.get('https://bookstore-app-backend-xxf2.onrender.com/book');
                 console.log(res.data)
                 setBook(res.data)
             } catch(error) {
